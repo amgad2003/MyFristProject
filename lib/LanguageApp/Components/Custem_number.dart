@@ -13,7 +13,9 @@ class Item extends StatelessWidget {
       width: double.infinity,
       child: Row(
         children: [
-          Container( color: Color(0xFFFAEBC8),
+          Container(
+            height: 100,
+            color: Color(0xFFFAEBC8),
             child: Image.asset(number.path!),
           ),
           Padding(

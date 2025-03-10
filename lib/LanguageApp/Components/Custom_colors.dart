@@ -7,6 +7,7 @@ Item({required this.opjectColor});
   @override
   Widget build(BuildContext context) {
     return Container(
+      height: 100,
       color: Colors.purple[600],
       width: double.infinity,
       child: Row(

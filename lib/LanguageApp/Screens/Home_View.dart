@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/LanguageApp/Screens/Colors.dart';
-import 'package:untitled/LanguageApp/Screens/Family.dart';
-import 'package:untitled/LanguageApp/Screens/Numbers.dart';
+import 'package:untitled/LanguageApp/Screens/Color_View.dart';
+import 'package:untitled/LanguageApp/Screens/Family_View.dart';
+import 'package:untitled/LanguageApp/Screens/Number_View.dart';
 import '../Components/Custom_wedget.dart';
 
 class HomePage extends StatelessWidget{
@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget{
               Navigator.push(
                   context,
                   MaterialPageRoute(builder:
-                      (context) => Family()));
+                      (context) => FamilyView()));
             },
             child: Category(
               color: Colors.green[700],
